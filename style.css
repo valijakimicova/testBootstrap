@@ -10,8 +10,8 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 60px; /*otazka1*/
-  text-align:right;/*otazka2*/
+  padding: 60px; /*otázka1*/
+  text-align:right;/*otázka2*/
   background-image: url("./images/landscape.jpg");
 }
 
@@ -24,13 +24,13 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: sticky;
+  /*otázka6*/
   top: 0;
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
+  float: right;/*otázka7*/
   display: block;
   color: white;
   text-align: center;
@@ -40,7 +40,7 @@ body {
 
 /* Right-aligned link */
 .navbar a.right {
-  float: right;
+  float: left;/*otázka7*/
 }
 
 /* Change color on hover */
@@ -63,22 +63,23 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%;
-  background-color: #1d0085;/*otazka4*/
+  flex: 25%;/*otázka8*/
+  background-color: #1d0085;/*otázka4*/
   padding: 20px;
-  color: #666;/*otazka4*/
+  color: #666;/*otázka4*/
 }
 
 /* Main column */
 .main {   
-  flex: 70%;
+  flex: 75%;/*otázka8*/
   background-color: white;
   padding: 20px;
 }
 
 /* Footer */
 .footer {
-  padding: 20px;
+  padding: 200px;
+ /*otázka5*/
   background: #474747;
 }
 
@@ -86,15 +87,15 @@ body {
 .footer p {
   text-align: center;
   font-size: 14px;
-  color:#16750d; /*otazka3*/
+  color:#16750d; /*otázka3*/
 }
 
 /* Basic styles for the post */
 .post {
-  margin-bottom: 20px;
+  margin-bottom: 50px;/*otázka9*/
   padding: 20px;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(228, 10, 10);/*otázka10*/
 }
 
 /* Styles for the post heading */
