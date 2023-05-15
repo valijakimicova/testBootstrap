@@ -10,8 +10,8 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 110px;
-  text-align: center;
+  padding: 60px; /*otazka1*/
+  text-align:right;/*otazka2*/
   background-image: url("./images/landscape.jpg");
 }
 
@@ -64,8 +64,9 @@ body {
 /* Sidebar/left column */
 .side {
   flex: 30%;
-  background-color: #f1f1f1;
+  background-color: #1d0085;/*otazka4*/
   padding: 20px;
+  color: #666;/*otazka4*/
 }
 
 /* Main column */
@@ -85,7 +86,7 @@ body {
 .footer p {
   text-align: center;
   font-size: 14px;
-  color: #d8d8d8;
+  color:#16750d; /*otazka3*/
 }
 
 /* Basic styles for the post */
